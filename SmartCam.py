@@ -5,7 +5,7 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import tensorflow.keras as tf
 import cv2 
 
-import cv2
+
 import mediapipe
 
 cap = cv2.VideoCapture(0)
