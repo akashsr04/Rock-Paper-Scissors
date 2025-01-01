@@ -9,7 +9,7 @@ def main():
     Train your model explicitly for n number of epochs using :
     yolo detect train data=path-to-your-data.yaml-file model=model-of-your-choice epochs=your-choice imgsz=preferably-640
     '''
-    model = YOLO("runs\\detect\\train8\\weights\\best.pt") # Absolute path may be preferred
+    model = YOLO("best.pt") # Absolute path may be preferred
     classnames = ['Paper', 'Rock', 'Scissors']
 
     video_cap = cv2.VideoCapture('video.mp4')
