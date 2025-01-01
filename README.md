@@ -13,11 +13,10 @@ Play against the computer and see who wins!
 
 ## 📖 Table of Contents
 - [Installation](#installation)
-    *Install requirements
-##  *Change data.yaml file's train val and test fields to the train/images, valid/images and test/images
-##  locations (as their absolute path).
-   *Train your own model :  yolo detect train data=path-to-your-data.yaml-file model=model-of-your-choice epochs=your-choice imgsz=preferably-640
-   *Run Detector.py
+    - Install requirements
+##  *Change data.yaml file's train val and test fields to the train/images, valid/images and test\images locations (as their absolute path).
+   - Train your own model :  yolo detect train data=path-to-your-data.yaml-file model=model-of-your-choice epochs=your-choice imgsz=preferably-640
+   - Run Detector.py
 
 
 ---
