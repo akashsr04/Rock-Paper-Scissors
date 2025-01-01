@@ -16,5 +16,6 @@ Play against the computer and see who wins!
 1. Clone the repository, Install requirements and run Detector.py file :
    ```bash
    git clone https://github.com/akashsr04/Rock-Paper-Scissors.git
+   cd Rock-Paper-Scissors
    pip install -r requirements.txt
    python3 Detector.py
